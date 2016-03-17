@@ -40,8 +40,13 @@ def user_connected():
 @socketio.on('new message', namespace='/chat')
 def new_message(data):
 	#save data
-	#get reply and send a reply
+	#@TODO: get reply from any of the brains(wiki) and send a reply
 	sendUserMessage(data)
+	# process understand the user message and send a wait message while processing
+	msg = "i dey think o... this one hard small"
+	sendUserMessage(msg)
+	#send message to wiki
+	# get reply here
 	msg = randmessages[randint(0,len(randmessages))]
 	sendMr2knowReply(msg)
 

@@ -52,3 +52,4 @@ Temporary Items
 *.bak  
 chat_bot_env/
 .idea/
+chatbot.sublime-project
