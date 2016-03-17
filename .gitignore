@@ -47,7 +47,15 @@ Temporary Items
 .apdisk
 
 #other files
-.mwb 
-.bak  
+*.mwb 
+*.bak  
 chat_bot_env/
 .idea/
+chatbot.sublime-workspace
+*.sublime-project
+.ipynb_checkpoints/
+*.ipynb
+chatbot.sublime-project
+chatbot.sublime-workspace
+sdf.mwb
+sdf.mwb.bak

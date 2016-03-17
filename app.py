@@ -41,7 +41,9 @@ def user_connected():
 def new_message(data):
 	#save data
 	#get reply and send a reply
+	#send message to wiki async if possible, the send waiting messages
 	sendUserMessage(data)
+	#Get wiki answer into msg
 	msg = randmessages[randint(0,len(randmessages))]
 	sendMr2knowReply(msg)
 
