@@ -58,7 +58,7 @@ def add_user(data):
 	number_of_users += 1;
 
 	emit('login', { 'numUsers' : number_of_users })
-	msg = 'Hi {} you are yarning the number Mr2know how far na!'.format(session['username'])
+	msg = 'Hi {} you are yarning the number one Mr2know! How far na?!'.format(session['username'].upper())
 	sendMr2knowReply(msg)
 
 

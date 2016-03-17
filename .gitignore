@@ -47,7 +47,8 @@ Temporary Items
 .apdisk
 
 #other files
-.mwb 
-.bak  
+*.mwb 
+*.mwb.bak
+*.bak  
 chat_bot_env/
 .idea/
