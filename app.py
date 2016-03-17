@@ -41,6 +41,7 @@ def user_connected():
 def new_message(data):
 	#save data
 	#@TODO: get reply from any of the brains(wiki) and send a reply
+	#send message to wiki async if possible, the send waiting messages
 	sendUserMessage(data)
 	# process understand the user message and send a wait message while processing
 	msg = "i dey think o... this one hard small"
